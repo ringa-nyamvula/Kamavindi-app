@@ -6,6 +6,10 @@ import '../styles/NavBar.css';  // Import the CSS file
 const NavBar = () => {
   return (
     <nav className="nav"> {/* Use className instead of style */}
+      <div className="logo-container">
+        <h1 className='Logo'>Kama</h1>
+        <h1 className='Logo2'>vindi</h1>
+      </div>
       <ul className="nav-list"> {/* Use className instead of style */}
         <li className="nav-item"> {/* Use className instead of style */}
           <Link to="/">Home</Link>
