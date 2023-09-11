@@ -1,0 +1,36 @@
+/* Styles for the navigation bar */
+.nav {
+  display: flex;
+  justify-content: flex-end; /* Align navigation items to the right */
+  align-items: center; /* Vertically center navigation items */
+  background-color: lightgray;
+  padding: 10px;
+  position: fixed; /* Fixed position to keep it at the top right */
+  top: 0; /* Align it to the top of the page */
+  right: 0; /* Align it to the right of the page */
+  width: 100%; /* Take up the full width of the page */
+  z-index: 1; /* Ensure it appears above other content */
+}
+
+/* Styles for the navigation list */
+.nav-list {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+/* Styles for individual navigation items */
+.nav-item {
+  margin: 0 10px;
+}
+
+/* Additional styles for links in the navigation bar */
+.nav-item a {
+  text-decoration: none;
+  color: #000; /* Change the link color */
+  font-weight: bold; /* Make the links bold */
+}
+
+.nav-item a:hover {
+  color: #646cff; /* Change the link color on hover */
+}

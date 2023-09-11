@@ -12,8 +12,6 @@ const App = () => {
     <Router>
     <div>
       <NavBar />
-      123
-      
       <Routes> {/* Use Routes instead of Switch */}
         <Route path="/about" element={<About />} /> {/* Use 'element' prop */}
         <Route path="/photos" element={<Photos />} /> {/* Use 'element' prop */}
