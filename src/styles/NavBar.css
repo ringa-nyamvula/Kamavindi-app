@@ -1,0 +1,50 @@
+/* src/styles/NavBar.css */
+
+/* Styles for the navigation bar */
+.nav {
+  display: flex;
+  justify-content: space-between; /* Distribute space between the logo and navigation list */
+  align-items: center;
+  background-color: lightgray;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0; /* Set left to 0 to take up the full width */
+  z-index: 1;
+}
+
+/* Styles for the navigation list */
+.nav-list {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+/* Styles for individual navigation items */
+.nav-item {
+  margin: 0 10px;
+}
+
+/* Additional styles for links in the navigation bar */
+.nav-item a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.nav-item a:hover {
+  color: #646cff;
+}
+
+/* Styles for the logo container */
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+/* Styles for individual logo elements */
+.Logo, .Logo2 {
+  margin: 0; /* Remove margin to prevent extra spacing */
+  padding: 0; /* Remove padding to prevent extra spacing */
+}

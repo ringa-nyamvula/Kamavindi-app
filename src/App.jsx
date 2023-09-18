@@ -6,19 +6,20 @@ import Home from './components/Home';
 import About from './components/About';
 import Photos from './components/Photos';
 import Contacts from './components/Contacts';
+import Frame from './components/Frame';
+
 
 const App = () => {
   return (
     <Router>
     <div>
       <NavBar />
-      123
-      
       <Routes> {/* Use Routes instead of Switch */}
         <Route path="/about" element={<About />} /> {/* Use 'element' prop */}
         <Route path="/photos" element={<Photos />} /> {/* Use 'element' prop */}
         <Route path="/contacts" element={<Contacts />} /> {/* Use 'element' prop */}
         <Route path="/" element={<Home />} /> {/* Use 'element' prop */}
+        <Route path="/frame" element={<Frame />} />
       </Routes>
     </div>
   </Router>
