@@ -16,9 +16,15 @@
 
 /* Styles for the navigation list */
 .nav-list {
+  gap: 50px;
+  height: 20px;
+  justify-content: center;
+  width: 505px;
   list-style: none;
   display: flex;
   padding-right: 100%;
+  position: relative;
+  left: 67%;
 }
 
 /* Styles for individual navigation items */
@@ -28,13 +34,18 @@
 
 /* Additional styles for links in the navigation bar */
 .nav-item a {
-  text-decoration: none;
-  color: #000;
-  font-weight: bold;
+  color: #000000;
+  font-family: "Lexend Deca-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 2.16px;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
 }
 
 .nav-item a:hover {
-  color: #646cff;
+  color: #8c5585;
 }
 
 /* Styles for the logo container */
