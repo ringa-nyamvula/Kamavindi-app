@@ -36,7 +36,7 @@
 .nav-item a {
   color: #000000;
   font-family: "Lexend Deca-Regular", Helvetica;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   letter-spacing: 2.16px;
   line-height: normal;
@@ -76,6 +76,10 @@
   width: 37px;
 }
 
+.text-wrapper-2:hover{
+  color:#000000;
+}
+
 .text-wrapper-3 {
   color: #8c5585;
   font-family: "Lexend Deca-Regular", Helvetica;
@@ -87,6 +91,10 @@
   position: absolute;
   top: 5px;
   width: 84px;
+}
+
+.text-wrapper-3:hover{
+  color:#000000;
 }
 
 .text-wrapper-4 {
@@ -101,4 +109,8 @@
   top: 5px;
   white-space: nowrap;
   width: 98px;
+}
+
+.text-wrapper-4:hover{
+  color:#8c5585;
 }
