@@ -5,7 +5,7 @@
   display: flex;
   justify-content: space-between; /* Distribute space between the logo and navigation list */
   align-items: center;
-  background-color: lightgray;
+  background-color: #f2e9df;
   padding: 10px;
   position: fixed;
   top: 0;
@@ -16,9 +16,15 @@
 
 /* Styles for the navigation list */
 .nav-list {
+  gap: 50px;
+  height: 20px;
+  justify-content: center;
+  width: 505px;
   list-style: none;
   display: flex;
-  padding: 0;
+  padding-right: 100%;
+  position: relative;
+  left: 67%;
 }
 
 /* Styles for individual navigation items */
@@ -28,23 +34,83 @@
 
 /* Additional styles for links in the navigation bar */
 .nav-item a {
-  text-decoration: none;
-  color: #000;
-  font-weight: bold;
+  color: #000000;
+  font-family: "Lexend Deca-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 2.16px;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
 }
 
 .nav-item a:hover {
-  color: #646cff;
+  color: #8c5585;
 }
 
 /* Styles for the logo container */
-.logo-container {
-  display: flex;
-  align-items: center;
+.logo {
+  height: 61px;
+  left: 148px;
+  position: absolute;
+  top: 26px;
+  width: 205px;
 }
 
-/* Styles for individual logo elements */
-.Logo, .Logo2 {
-  margin: 0; /* Remove margin to prevent extra spacing */
-  padding: 0; /* Remove padding to prevent extra spacing */
+.overlap-group-2 {
+  height: 61px;
+  position: relative;
+  width: 199px;
+}
+
+.text-wrapper-2 {
+  color: #8c5585;
+  font-family: "Lexend Deca-Regular", Helvetica;
+  font-size: 40px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 4.8px;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 37px;
+}
+
+.text-wrapper-2:hover{
+  color:#000000;
+}
+
+.text-wrapper-3 {
+  color: #8c5585;
+  font-family: "Lexend Deca-Regular", Helvetica;
+  font-size: 30px;
+  font-weight: 400;
+  left: 28px;
+  letter-spacing: 3.6px;
+  line-height: normal;
+  position: absolute;
+  top: 5px;
+  width: 84px;
+}
+
+.text-wrapper-3:hover{
+  color:#000000;
+}
+
+.text-wrapper-4 {
+  color: #000000;
+  font-family: "Lexend Deca-Regular", Helvetica;
+  font-size: 30px;
+  font-weight: 400;
+  left: 101px;
+  letter-spacing: 3.6px;
+  line-height: normal;
+  position: absolute;
+  top: 5px;
+  white-space: nowrap;
+  width: 98px;
+}
+
+.text-wrapper-4:hover{
+  color:#8c5585;
 }

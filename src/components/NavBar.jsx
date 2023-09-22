@@ -6,25 +6,25 @@ import '../styles/NavBar.css';  // Import the CSS file
 const NavBar = () => {
   return (
     <nav className="nav"> {/* Use className instead of style */}
-      <div className="logo-container">
-        <h1 className='Logo'>Kama</h1>
-        <h1 className='Logo2'>vindi</h1>
-      </div>
+        <div className="logo">
+          <div className="overlap-group-2">
+            <div className="text-wrapper-2">K</div>
+            <div className="text-wrapper-3">ama</div>
+            <div className="text-wrapper-4">vindi</div>
+          </div>
+        </div>
       <ul className="nav-list"> {/* Use className instead of style */}
         <li className="nav-item"> {/* Use className instead of style */}
-          <Link to="/">Home</Link>
+          <Link to="/">HOME</Link>
         </li>
         <li className="nav-item"> 
-          <Link to="/about">About</Link>
+          <Link to="/about">ABOUT</Link>
         </li>
         <li className="nav-item"> 
-          <Link to="/photos">Photos</Link>
+          <Link to="/photos">PHOTOS</Link>
         </li>
         <li className="nav-item"> 
-          <Link to="/contacts">Contacts</Link>
-        </li>
-        <li className="nav-item"> 
-          <Link to="/frame">Frame</Link>
+          <Link to="/contacts">CONTACT</Link>
         </li>
       </ul>
     </nav>
