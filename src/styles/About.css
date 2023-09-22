@@ -44,6 +44,7 @@
     position: relative;
     left: 65%;
     top: -10px;
+    animation: slideInRight 2s;
   }
   
   .history__photo img {
@@ -59,6 +60,7 @@
     position: relative;
     right: 60%;
     top: 330px;
+    animation: slideInLeft 2s;
   }
 
   .history__photo1 img {
@@ -77,6 +79,30 @@
     top: 150px;
   }
   
+  /* Slide in from the right */
+@keyframes slideInRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Slide in from the left */
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
   /* Additional styles for responsiveness */
   @media (max-width: 768px) {
     .history__item {
