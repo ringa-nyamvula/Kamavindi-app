@@ -44,15 +44,17 @@ html, body {
     position: relative;
     top: 880px;
     width: 120%;
+    animation: slideInLeft 2.5s;
   }
   
-  .frame .div {
+  .frame .rectangle-1 {
     background-color: #8c5581;
     height: 990px;
     left: 96%;
     position: absolute;
     top: 9px;
     width: 343px;
+    animation: slideInRight 1.5s;
   }
   
   .frame .circle-edit {
@@ -65,6 +67,7 @@ html, body {
     position: absolute;
     left: 1000px;
     top: 210px;
+    animation: slideInRight 2s;
 }
 
   .frame .navbar {
@@ -94,6 +97,7 @@ html, body {
     position: absolute;
     top: 700px;
     width: 297px;
+    animation: slideInLeft 2s;
   }
   
   .frame .logo {
@@ -211,4 +215,33 @@ html, body {
     top: 410px;
     width: 180px;
   }
-  
+
+/* Slide in from the right */
+@keyframes slideInRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Slide in from the left */
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Apply the animation to the elements */
+
+.info {
+  animation: slideInLeft 1s ease; /* Adjust animation duration as needed */
+}

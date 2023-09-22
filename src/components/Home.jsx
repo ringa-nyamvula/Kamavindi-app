@@ -7,7 +7,7 @@ const Frame = () => {
       <div className="overlap">
         <div className="overlap-group">
           <div className="rectangle" />
-          <div className="div" />
+          <div className="rectangle-1" />
           <div className="circle-edit" />
           <div className="rectangle-2" />
         </div>
